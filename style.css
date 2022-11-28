@@ -32,7 +32,7 @@ input{
 	border-color: transparent;
 }
 #btn:hover{
-text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+text-shadow: 0px 0px 6px rgba(0, 0, 0, 1);
 -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
 transition: all 0.4s ease 0s;
@@ -62,7 +62,7 @@ transition: all 0.4s ease 0s;
   bottom: 10px;
   display: block;
   transition: 0.2s;
-  color: gray;
+  color: black;
 }
 
 .form__field:focus {
@@ -72,13 +72,13 @@ transition: all 0.4s ease 0s;
     display: block;
     transition: 0.2s;
     font-size: 100%;
-    color: white;
+    color: black;
     font-weight:700;    
   }
   padding-bottom: 6px;  
   font-weight: 700;
   border-width: 3px;
-  border-image: linear-gradient(to right, white,lightgray);
+  border-image: linear-gradient(to right, black,black);
   border-image-slice: 1;
 }
 .form__field{
