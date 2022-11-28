@@ -21,3 +21,86 @@ body{
     
     color:black;
 }
+html{
+   font-size: 100%;
+   background-color: black;
+	height: 100%;
+	overscroll: hidden;
+	background-size: cover;
+}
+input{
+	border-color: transparent;
+}
+#btn:hover{
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+.form__group {
+  position: relative;
+  padding: 15px 0 0;
+  margin-top: 5px;
+  width: 50%;
+}
+
+.form__field {
+  font-family: inherit;
+  width: 100%;
+  border: 0;
+  border-bottom: 2px solid gray;
+  outline: 0;
+  color: white;
+  padding: 7px 0;
+  background: transparent;
+  transition: border-color 0.2s;
+}
+
+.form__label {
+  position: absolute;
+  top: 0;
+  bottom: 10px;
+  display: block;
+  transition: 0.2s;
+  color: gray;
+}
+
+.form__field:focus {
+ ~ .form__label {
+    position: absolute;
+    top: 0;
+    display: block;
+    transition: 0.2s;
+    font-size: 100%;
+    color: white;
+    font-weight:700;    
+  }
+  padding-bottom: 6px;  
+  font-weight: 700;
+  border-width: 3px;
+  border-image: linear-gradient(to right, white,lightgray);
+  border-image-slice: 1;
+}
+.form__field{
+  &:required,&:invalid { box-shadow:none; }
+}
+#btn {
+  background-color: transparent;
+  color: white;
+  border-radius: 10px;
+  font-family: RHMono;
+  cursor:pointer;
+	transition: all 0.4s ease 0s;
+}
+#textbox:hover {
+  outline:none;
+  border-radius:0px;
+}
+#textbox {
+  letter-spacing: -1px;
+  border-radius: 0px;
+}
+#textbox:focus {
+  letter-spacing: -.5px;
+	border-radius:0px;
+}
