@@ -4,11 +4,11 @@ html,body {
     background: -webkit-linear-gradient(40deg, rgba(0,0,0,1) 17%, rgba(255,0,0,1) 100%);
     background: linear-gradient(40deg, rgba(0,0,0,1) 17%, rgba(255,0,0,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#ff0000",GradientType=1);
-    font-family: RHMono;
+    font-family: BS;
 }
 @font-face {
-  font-family: RHMono;
-  src: url(https://mysnow.org/fonts/RedHatMono-Regular.ttf);
+  font-family: BS;
+  src: url(BadScript-Regular.ttf);
   font-weight: normal;
 }
 body{
@@ -86,9 +86,9 @@ transition: all 0.4s ease 0s;
 }
 #btn {
   background-color: transparent;
-  color: white;
+  color: black;
   border-radius: 10px;
-  font-family: RHMono;
+  font-family: BS;
   cursor:pointer;
 	transition: all 0.4s ease 0s;
 }
