@@ -88,7 +88,7 @@ transition: all 0.4s ease 0s;
   background-color: transparent;
   color: black;
   border-radius: 10px;
-  font-family: BS;
+  font-family: monospace;
   cursor:pointer;
 	transition: all 0.4s ease 0s;
 }
